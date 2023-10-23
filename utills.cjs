@@ -110,6 +110,4 @@ async function test(){
     console.log(getSalePersonByName(a,name))
 
 }
-test()
-
 module.exports = {getNewQuotes,getAccountByName,getSalePersonByName,getDataAccounts,getDataSalePersons}
