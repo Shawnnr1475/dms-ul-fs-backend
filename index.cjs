@@ -5,6 +5,7 @@ const {createNewDeal} = require("./deals.cjs")
 const cors = require("cors")
 const bodyParser = require("body-parser")
 let dealsToByCreated = []
+const PORT = 5000 || process.env.PORT
 
 app.use(cors())
 app.use(bodyParser.json())
@@ -59,7 +60,7 @@ app.post("/create_deals", async(req,res)=>{
     }
 })
 
-app.listen(5000,()=>{
-    console.log("listening on port 5000")
+app.listen(PORT,()=>{
+    console.log("listening on port " + PORT )
 })
 
