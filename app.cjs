@@ -44,5 +44,7 @@ async function main(){
     return (QuotesNotEntered)
 }
 
+main()
+
 module.exports = {main}
 

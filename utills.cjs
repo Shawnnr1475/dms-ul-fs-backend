@@ -1,4 +1,5 @@
 require("dotenv").config()
+const fetch = require('node-fetch');
 
 
 function getNewQuotes(sevenDaysAgoTimestamp,quotes){
