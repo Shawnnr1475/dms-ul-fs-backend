@@ -1,7 +1,8 @@
+import fetch from "node-fetch"
 
 const { HmacSHA256,enc } = require("crypto-js")
 require("dotenv").config()
-const fetch = require('node-fetch');
+
 
 const api_key = 'd2UhAeonPBKalSVL2UzS6AVoCNzQQz7OjqmyZgIStmjkZf7plnIP9kKP2MAYUHvQi6L5HYizMCXXWnwWvwRQ=='
 const api_id = 'e5eef4d1-a12c-4f4a-9df8-bdcd01011639'

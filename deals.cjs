@@ -1,7 +1,7 @@
 const { getDataAccounts, getAccountByName, getDataSalePersons, getSalePersonByName } = require("./utills.cjs")
 const dealsapiUrl = 'https://dwykaminingservices.myfreshworks.com/crm/sales/api/deals'
 require("dotenv").config()
-const fetch = require('node-fetch');
+import fetch from "node-fetch"
 
 
 async function getDataDeals(apiUrl,apiKey) {
