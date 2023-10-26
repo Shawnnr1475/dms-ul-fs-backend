@@ -1,6 +1,5 @@
-import fetch from "node-fetch"
 require("dotenv").config()
-
+import fetch from "node-fetch"
 
 
 function getNewQuotes(sevenDaysAgoTimestamp,quotes){

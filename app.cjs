@@ -2,7 +2,7 @@ require("dotenv").config()
 const {getDataQutoes} = require("./quotes.cjs")
 const {getNewQuotes} = require("./utills.cjs")
 const {getDataDeals, createNewDeal} = require("./deals.cjs")
-const prompt = require("prompt-sync")();
+const prompt = require("prompt-sync")();z
 
 
 async function main(){
