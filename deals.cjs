@@ -27,6 +27,7 @@ async function getDataDeals(apiUrl,apiKey) {
 async function createNewDeal(deals,apiKey){
   const accounts = await getDataAccounts(apiKey)
   const salePersons = await getDataSalePersons(apiKey)
+  console.log(deals)
     deals.map(async deal=>{
       const accountID = getAccountByName(accounts,deal.Customer.CustomerName)
  
