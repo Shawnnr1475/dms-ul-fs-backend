@@ -42,7 +42,7 @@ app.get("/register_qoute_deals", async (req,res)=>{
 })
 
 app.post("/create_deals", async(req,res)=>{
-    const newDealsAdded = await createNewDeal(QuotesNotEntered,process.env.apiKey)
+    const newDealsAdded = await createNewDeal(req.body,process.env.apiKey)
     
     if (newDealsAdded){
         res.json({
